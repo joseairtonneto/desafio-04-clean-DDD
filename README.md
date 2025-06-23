@@ -4,6 +4,7 @@
 - Product
 - Sale
 - Storage
+- Notification
 - Order
 
 # Casos de uso
@@ -12,7 +13,7 @@
 - GetProductById (Busca produto por Id)
 - AddProductToStorage (Adiciona o produto no estoque)
 - CreateSale (Cria uma venda, com isso reduz no estoque e verifica a quantidade mínima)
-- SendAlert (Envia o alerta, seja notificação no sistema ou email)
+- SendNotification (Envia a notificação, seja no sistema ou por email)
 - GetSalesByPeriod (Busca vendas por período, trazendo os dados de queantidade de vendas, lucro por produto e quais produtos estão vendendo melhor)
 - GetStorageByPeriod (Busca estoque por período)
 - CreateOrder (Cria ordem de compra)
